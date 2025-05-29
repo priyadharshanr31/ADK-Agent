@@ -1,0 +1,4 @@
+google-agent-sdk
+pydantic
+fitz  # Wrapper around PyMuPDF
+PyMuPDF
