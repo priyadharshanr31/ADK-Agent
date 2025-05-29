@@ -1,0 +1,6 @@
+project: 29_may_qa_adk
+description: PDF QA and Summarizer Agent
+
+agents:
+  - entrypoint: pdf_agent/agent.py
+    name: pdf_reader_agent
