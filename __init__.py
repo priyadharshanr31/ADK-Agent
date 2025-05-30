@@ -1,4 +1,5 @@
-# __init__.py
+#pdf_agent/__init__.py
 
-from .pdf_agent import pdf_reader_agent as agent
 
+
+from .agent import pdf_reader_agent
