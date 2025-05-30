@@ -47,9 +47,7 @@ The project defines a single autonomous agent:
 │ ├── memory.py # In-memory storage for last uploaded PDF content
 │ └── utils.py # PDF text extraction utility (using PyMuPDF)
 
-yaml
-Copy
-Edit
+
 
 ---
 
@@ -67,23 +65,22 @@ Edit
 Create a `.env` file or export the following in your shell:
 
 ```env
+
 GOOGLE_API_KEY=your_google_api_key_here
 🧪 Running with Google ADK Dev UI
+
 1. Install Google ADK:
-bash
-Copy
-Edit
 pip install google-agents
+
 2. Install other dependencies:
 bash
 Copy
 Edit
 pip install -r requirements.txt
+
 3. Start the Developer UI:
-bash
-Copy
-Edit
 adk web
+
 4. In your browser:
 Open: http://localhost:8080
 
